@@ -1,0 +1,11 @@
+{
+  "name": "ROCKBIOT",
+  "sections": [
+    "GRID"
+  ],
+  "data": {
+    "value_type": "DOUBLE",
+    "default": 0,
+    "dimension": "1/Pressure"
+  }
+}
