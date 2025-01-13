@@ -46,8 +46,8 @@ bool PyAction::valid_keyword(const std::string& keyword) {
         //INCLUDE is allowed as well, but is handled differently by the Parser and thus does not need to be in this list
         "GCONINJE", "GCONPROD", "GCONSUMP", "GEFAC", "GRUPTREE",
         "METRIC", "MULTX", "MULTX-", "MULTY", "MULTY-", "MULTZ", "MULTZ-",
-        "NEXT", "NEXTSTEP",
-        "WCONINJE", "WCONPROD", "WECON", "WEFAC", "WELOPEN", "WELPI", "WELTARG", "WGRUPCON",
+        "NEXT", "NEXTSTEP", "SOURCE",
+        "WCONINJE", "WCONPROD", "WECON", "WEFAC", "WELOPEN", "WELPI", "WELTARG", "WGRUPCON", 
         "WELSEGS", "WELSPECS", "WSEGVALV", "WLIST", "WPIMULT", "WTEST", "WTMULT"
     };
     return pyaction_allowed_list.find(keyword) != pyaction_allowed_list.end();
