@@ -155,7 +155,7 @@ static const std::unordered_map<std::string, keyword_info<double>> double_keywor
                                                                                       {"THCWATER",keyword_info<double>{}.unit_string("Energy/AbsoluteTemperature*Length*Time")},
                                                                                       {"YMODULE", keyword_info<double>{}.unit_string("Giga*Pascal")},
                                                                                       {"PRATIO", keyword_info<double>{}.unit_string("1")},
-                                                                                      {"ROCKBIOT", keyword_info<double>{}.unit_string("1")},
+                                                                                      {"ROCKBIOT", keyword_info<double>{}.unit_string("1/Pressure")},
                                                                                       {"BIOTCOEF", keyword_info<double>{}.unit_string("1")},
                                                                                       {"POELCOEF", keyword_info<double>{}.unit_string("1")},
                                                                                       {"THERMEXR", keyword_info<double>{}.unit_string("1/AbsoluteTemperature")},
